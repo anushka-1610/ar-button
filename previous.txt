@@ -4,22 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quick Look AR</title>
-  <script type="module" src="./index.js"></script>
 </head>
 <body>
   <h1>View in AR</h1>
   <!-- Link to the USDZ file for Quick Look -->
-  <!-- <a href="./assets/fridge_bake_6.usdz" rel="ar" class="ar-button">
+  <a href="./assets/fridge_bake_6.usdz" rel="ar" class="ar-button">
     <img src="./assets/right_arrow_final.png" alt="Model Thumbnail" />
-  </a> -->
-
-  <ar-button class="ar-button"
-    src="https://github.com/leoncvlt/ar-button/raw/master/assets/Astronaut.glb"
-    ios-src="https://github.com/leoncvlt/ar-button/raw/master/assets/Astronaut.usdz"
-    link="https://www.nasa.gov/"
-    title="A 3D model of an astronaut">
-      See in Augmented Reality 
-</ar-button>
+  </a>
 
   <!-- Optional: Additional styling for the AR button -->
   <style>
